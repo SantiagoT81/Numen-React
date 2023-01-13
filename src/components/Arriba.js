@@ -17,10 +17,10 @@ const Arriba = () => {
                 <Image src={logo} width='25%'/>
             </Navbar.Brand>
             <Nav>
-              <Nav.Link style={{fontSize: 20}} href='#home'>
+              <Nav.Link style={{fontSize: 20}} to='#home'>
                   <strong>INICIO</strong>
               </Nav.Link>
-              <Nav.Link style={{fontSize: 20}} href='#contacto'>
+              <Nav.Link style={{fontSize: 20}} to='#contacto'>
                 <strong>SOBRE NOSOTROS</strong>
               </Nav.Link>
               <Nav.Link>

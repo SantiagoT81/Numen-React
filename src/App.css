@@ -24,6 +24,7 @@ body {
     }
 }
 
+
 @media (max-width:320px){
     .carousel-indicators{
         top: 20vh;
@@ -44,3 +45,4 @@ footer {
     padding: 5vh;
     position: absolute;
 }
+
