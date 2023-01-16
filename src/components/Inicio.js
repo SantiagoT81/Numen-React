@@ -6,7 +6,7 @@ import Carrusel from './Carrusel'
 const Inicio = () => {
   return (
     <>
-        
+        <Carrusel/>
     </>
   )
 }

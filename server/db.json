@@ -1,0 +1,35 @@
+{
+    "zapatillas": [
+        {
+            "id": 1,
+            "modelo": "Air Force",
+            "precio": 7800
+        },
+        {
+            "id": 2,
+            "modelo": "Blazer",
+            "precio": 5000
+        },
+        {
+            "id": 3,
+            "modelo": "Air Jordan",
+            "precio": 6000
+        },
+        {
+            "id": 1,
+            "modelo": "Court Legacy",
+            "precio": 4700
+        },
+        {
+            "id": 1,
+            "modelo": "Air Max",
+            "precio": 11000
+        },
+        {
+            "id": 1,
+            "modelo": "Cortez",
+            "precio": 7800
+        }
+
+    ]
+}

@@ -7,3 +7,5 @@ Prueba de React usando:
 
 -JavaScript
 
+-JSON Server
+

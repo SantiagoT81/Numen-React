@@ -1,8 +1,4 @@
 import './App.css';
-import Arriba from './components/Arriba';
-import Carrusel from './components/Carrusel';
-import Footer from './components/Footer'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Rutas from './components/Rutas';
 
 // const [estado, setContador]= useState(0 (para inicializar con int en 0)) 
@@ -10,11 +6,8 @@ import Rutas from './components/Rutas';
 
 function App() {
   return (
-    
       <div className="App">
-        <Arriba/>
-        <Carrusel/>
-        <Footer/>
+        <Rutas/>
       </div>
     
   );

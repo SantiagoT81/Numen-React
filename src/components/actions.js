@@ -1,0 +1,5 @@
+export const TYPES = {
+    ADD_SHOES: "ADD_SHOES",
+    DELETE_SHOES: "DELETE_SHOES",
+    REMOVE_ALL: "REMOVE_ALL"
+};
