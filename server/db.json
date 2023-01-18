@@ -3,33 +3,40 @@
         {
             "id": 1,
             "modelo": "Air Force",
-            "precio": 7800
+            "precio": 7800,
+            "cantidad": 1
         },
         {
             "id": 2,
             "modelo": "Blazer",
-            "precio": 5000
+            "precio": 5000,
+            "cantidad": 1
         },
         {
             "id": 3,
             "modelo": "Air Jordan",
-            "precio": 6000
+            "precio": 6000,
+            "cantidad": 1
         },
         {
-            "id": 1,
+            "id": 4,
             "modelo": "Court Legacy",
-            "precio": 4700
+            "precio": 4700,
+            "cantidad": 1
         },
         {
-            "id": 1,
+            "id": 5,
             "modelo": "Air Max",
-            "precio": 11000
+            "precio": 11000,
+            "cantidad": 1
         },
         {
-            "id": 1,
+            "id": 6,
             "modelo": "Cortez",
-            "precio": 7800
+            "precio": 7800,
+            "cantidad": 1
         }
 
-    ]
+    ],
+    "carrito": []
 }

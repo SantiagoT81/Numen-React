@@ -1,20 +1,20 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-import logo from '../images/shoes.png';
 
-const ItemCarrito = (props) => {
+const ItemCarrito = ({data, deleteFromCart}) => {
+  const {id,modelo,precio,cantidad } = data
   return (
     <div>
-        <Card>
-            <Card.Img variant='top' src={logo}/>
-            <Card.Body className='tarjeta'>
-                <Card.Title className='texto'>Modelo</Card.Title>
-                <Card.Text className='texto'>Precio</Card.Text>
-                <button className='btn btn-light btn-sm'>Agregar al carro</button>
-            </Card.Body>
-        </Card>
-
-    </div>
+        <h4>{modelo}</h4>
+        <h5>
+          $ {precio} x {cantidad} = $ {precio * cantidad}
+        </h5>
+        <div className='empujado'>
+          <button onClick={() => deleteFromCart(id, false)} className='btn btn-dark'>
+            Eliminar uno
+          </button>
+          <button className='btn btn-dark' onClick={() => deleteFromCart(id,true)}> Eliminar todos</button>
+        </div>
+    </div> 
   )
 }
 

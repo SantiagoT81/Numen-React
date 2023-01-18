@@ -1,13 +1,20 @@
-import React from 'react'
+import React from "react";
+import { Card } from "react-bootstrap";
+import logo from '../images/shoes.png'
 
-const Producto = () => {
+const Producto = (props) => {
+  const { data, addToCart } = props;
+
   return (
-    <div className='col-sm-6 col-md-4'>
-        <h4>Modelo</h4>
-        <h5>Precio</h5>
-        <button className='btn btn-dark'>Agregar</button>
-    </div>
+    <Card>
+        <Card.Img variant='top' src={logo}/>
+        <Card.Body className='tarjeta'>
+            <Card.Title className='texto'>{data.modelo}</Card.Title>
+            <Card.Text className='texto'>$ {data.precio}</Card.Text>
+            <button className='btn btn-light btn-sm' onClick={() => addToCart(data.id)}>Agregar al carro</button>
+        </Card.Body>
+    </Card>
   )
 }
 
-export default Producto
+export default Producto;
