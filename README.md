@@ -9,3 +9,6 @@ Prueba de React usando:
 
 -JSON Server
 
+# Comandos
+
+* json-server --watch server/db.json --port 3001
